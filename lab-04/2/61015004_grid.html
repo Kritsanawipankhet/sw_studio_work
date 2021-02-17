@@ -4,47 +4,13 @@
 <head>
    <title>Page Title</title>
    <style>
-      body {
-         display: grid;
-         grid-template-areas:
-            'header header header header header header';
-         grid-template-columns: auto auto auto auto auto auto;
-      }
-
-      .item-0 {
-         grid-area: header;
-      }
-
       .item-1 {
-
-         border: dotted red;
+         display: grid;
+         grid-template-columns: 20% auto  20%;
       }
-
-      .item-1-1 {
-         grid-column: 1 / span 2;
-         grid-row: 2;
-         border: dotted green;
-      }
-
-      .item-1-2 {
-         grid-column: 2 / span 2;
-         grid-row: 2;
-         border: dotted green;
-      }
-
-      .item-1-3 {
-         grid-column: 3 / span 2;
-         grid-row: 2;
-         border: dotted green;
-      }
-
       .item-2 {
-         border: dotted blue;
-
-      }
-
-      .item-3 {
-         border: dotted black;
+         display: grid;
+         grid-template-columns: auto auto auto;
 
       }
    </style>
@@ -57,7 +23,6 @@
    </div>
    <div class="item-1">
       <div class="item-1-1">
-         asd
       </div>
       <div class="item-1-2">
          <p>
@@ -86,10 +51,9 @@
 
       </div>
       <div class="item-1-3">
-         asd
       </div>
    </div>
-   <!-- <div class="item-2">
+   <div class="item-2">
       <div>
          <p>
          <h1>1</h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus ipsum quis sapien tempor, vel
@@ -118,7 +82,7 @@
       efficitur sit amet justo nec, convallis sodales augue. Mauris egestas a orci non dictum. Sed id suscipit libero,
       in luctus lorem. Nunc egestas, tortor at bibendum condimentum, massa sem lacinia neque, nec gravida orci tortor in
       diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta ultricies sollicitudin.</p>
-   </div> -->
+   </div>
 </body>
 
 </html>
